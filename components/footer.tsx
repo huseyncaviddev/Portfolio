@@ -45,7 +45,12 @@ const Footer = () => {
               href={"/"}
               className="w-10 h-10 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 transition-all duration-200 hover:bg-gradient-custom hover:border-transparent transform hover:translate-y-[-2px]"
             >
-              <img src={profile.img} alt={profile.id} width={20} height={20} />
+              <img
+                src={profile.img}
+                alt={`${profile.id}`}
+                width={20}
+                height={20}
+              />
             </Link>
           ))}
         </div>
